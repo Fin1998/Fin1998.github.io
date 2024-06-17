@@ -1,0 +1,61 @@
+p {
+    color: rgb(201, 13, 13);                               /* Changer la couleur du texte */
+    font-family:'Courier New', Courier, monospace;            /* Changer la police de caractère */
+    background-color: rgb(0, 0, 0);                    /* Changer la couleur d'arrière-plan */
+    font-size: 35px;                                          /* Changer la taille du texte */
+}
+
+h2 {
+    color:rgb(245, 104, 10);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;                                     /* Centrer du texte */
+}
+
+body {
+   background-image: url('../images/fond.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover;
+}
+
+img {                                                   /* Centrer une image */
+    display: block;
+    margin: auto;
+}
+
+a {
+  color: chartreuse; 
+  font-size: 40px;
+}
+
+
+ /* css pour le menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+ /* fin du css pour le menu */
+
+
+
+
+
